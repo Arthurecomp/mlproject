@@ -58,8 +58,9 @@ class CustomData:
                 "parental level of education": [self.parental_level_of_education],
                 "lunch": [self.lunch],
                 "test preparation course": [self.test_preparation_course],
-                "reading score": [self.reading_score],
-                "writing score": [self.writing_score],
+                "reading score": [self.reading_score] ,
+                "writing score": [self.writing_score]
+                             
             }
 
             return pd.DataFrame(custom_data_input_dict)
